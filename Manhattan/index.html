@@ -12,7 +12,7 @@
         <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
         <link href="styles/main.css" rel="stylesheet" />
     </head>
-        <body>
+    <body>   
         <div data-role="view" id="tabstrip-home" data-title="Hello World!">
             <h1>Welcome!</h1>
             <div class="nav_wrap">
@@ -234,29 +234,20 @@ Text</textarea>
             </div>
         </div> 
        
-            
-       <script>
-    function initForm() {
-        var body = $(".km-vertical,.km-horizontal");
+             
+       
 
-        if (kendo.ui.DropDownList) {
-            $("#dropdown").kendoDropDownList({
-            });
-        }
-    }
-</script>
-
-<style scoped>
-    #forms input:not([type=checkbox]):not([type=radio]),
-    #forms select,
-    #forms .k-dropdown
-    {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 50%;
-    }
-</style>    
-            
+   
+        <script>
+            function initForm() {
+                var body = $(".km-vertical,.km-horizontal");
+        
+                if (kendo.ui.DropDownList) {
+                    $("#dropdown").kendoDropDownList({
+                    });
+                }
+            }
+       </script>
        <script>
            /*Activates and Configures Kendo Mobile App */
            var app = new kendo.mobile.Application(document.body, { transition: "slide", layout: "mobile-tabstrip" });
@@ -274,5 +265,6 @@ Text</textarea>
             });   
        </script>
 
-</body>    
+     </body>
+    
 </html>
