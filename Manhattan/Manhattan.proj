@@ -28,6 +28,7 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="images" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -51,6 +52,16 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\nav_alerts.png" />
+    <Content Include="images\nav_lit_alerts.png" />
+    <Content Include="images\nav_lit_orders.png" />
+    <Content Include="images\nav_lit_reports.png" />
+    <Content Include="images\nav_lit_units.png" />
+    <Content Include="images\nav_lit_warranty.png" />
+    <Content Include="images\nav_orders.png" />
+    <Content Include="images\nav_reports.png" />
+    <Content Include="images\nav_units.png" />
+    <Content Include="images\nav_warranty.png" />
     <Content Include="index.html" />
     <Content Include="kendo\js\jquery.min.js" />
     <Content Include="kendo\js\kendo.mobile.min.js" />
